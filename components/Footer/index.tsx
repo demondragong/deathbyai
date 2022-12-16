@@ -4,7 +4,6 @@ import { css } from '@emotion/react';
 
 // Import Styled Components
 import { FooterContainer, FlexWrap } from './Footer.atoms';
-import { PressCoverage } from '../../components';
 import Link from 'next/link';
 
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
@@ -73,7 +72,6 @@ const SocialWrapper = styled.div(() => css({
 
 const Footer = () => (
     <>
-        <PressCoverage />
         <FooterContainer>
             <FlexWrap>
                 <FooterTitle>
@@ -82,59 +80,20 @@ const Footer = () => (
                     }}>
                         <img height="60px" width="60px" src='https://static.killedbygoogle.com/com/tombstone-alt.svg' alt="Tombstone" />
                     </div>
-                    <Title>Killed by Google</Title>
+                    <Title>Death by AI</Title>
                 </FooterTitle>
                 <div>
                     <p>
-                        Killed by Google is the Google graveyard; a free and open source
-                        list of discontinued Google services, products, devices, and apps.
-                        We aim to be a source of factual information about the history
-                        surrounding Google&apos;s dead projects.
+                        Death by AI is a RIP-off of <a href="https://killedbygoogle.com/">Killed by Google</a>; an open source
+                        list of discontinued Google products and services.
+                        Go check their page! It's litteraly the same UI.
+                        </p><p>Except this page focuses on things that AI is threatening.
           </p>
-                    <p>
-                        <a
-                            href="https://github.com/codyogden/killedbygoogle/graphs/contributors"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Contributors
-            </a>
-            &nbsp;from around the world help compile, research, and maintain the
-            information about dying and dead Google products. You can join the
-            discussion on&nbsp;
-            <a href="https://github.com/codyogden/killedbygoogle">GitHub</a>. A project
-            by&nbsp;
-            <a
-                            href="https://codyogden.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Cody Ogden
-            </a>
-            .
-          </p>
-                    <p>
-                        Press inquiries and other assorted death threats?
-            <br />
-            Throw a&nbsp;
-            <a href="mailto:knife@killedbygoogle.com">
-                            knife@killedbygoogle.com
-            </a>
-            .
-          </p>
+                    
                 </div>
-                <CopyNotice>
-                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE">
-                        &copy; 2022 Cody Ogden.
-          </a>
-          &nbsp;-&nbsp;
-          <a href="https://analytics.kbg.rip" target="_blank" rel="noopener noreferrer">
-                        Analytics
-          </a>
-                </CopyNotice>
                 <SocialWrapper>
                     <SocialLink
-                        url="https://github.com/codyogden/killedbygoogle"
+                        url="https://github.com/demondragong/deathbyai"
                         altText="GitHub"
                         imgSrc='https://static.killedbygoogle.com/com/github.svg'
                     />

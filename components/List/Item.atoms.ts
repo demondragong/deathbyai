@@ -8,6 +8,13 @@ export const Description = styled.p(() => css({
   paddingRight: '2em',
 }));
 
+export const Hope = styled.p(() => css({
+  fontSize: '0.9em',
+  lineHeight: 1.5,
+  margin: '8px 0 0 0',
+  paddingRight: '2em',
+}));
+
 export const Icon = styled.img(() => css({
   height: '50px',
   width: '50px',

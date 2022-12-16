@@ -10,13 +10,12 @@ import {
 import { ProductWithSlug } from '../../types/Product';
 import Badge from '../Badge'; 
 
-const DeathIdiom = dynamic(() => import('./LeadPhrase'), { ssr: false });
-
 // Import Styled Components
 import {
   AgeRange,
   ContentContainer,
   Description,
+  Hope,
   Icon,
   IconContainer,
   ListItem,
@@ -91,10 +90,11 @@ export default function Item(props: ProductWithSlug) {
           </a>
         </h2>
         <Description>
-          {(isPast()) ? `Killed ${relativeDate} ago, ` : <DeathIdiom relativeDate={relativeDate} /> }
           {props.description}
-          {getYears()}
         </Description>
+        <Hope>
+          {props.hope}
+        </Hope>
       </ContentContainer>
     </ListItem>
   );
