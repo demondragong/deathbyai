@@ -3,11 +3,11 @@
     "name": "Stack Overflow",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
-    "link": "https://stackoverflow.com/",
+    "link": "https://miro.medium.com/max/1400/0*OQmVtfdSw6M8TYkR.jpg",
     "description": "People realized that they could simply ask a bot their question and that it always had an answer.",
     "type": "app",
     "hope": "Turns out the answer is sometimes completely wrong.",
-    "status": "Vulnerable"
+    "conservationStatus": "vu"
   },
     {
     "name": "Giving mixtapes in highschool",
@@ -16,67 +16,57 @@
     "link": "https://44.media.tumblr.com/b5736035aa78a31fc0e81ebfc8117ffc/3f3f03b87036caac-34/s500x750_f1/5b1f42b0c5c3308ac126cd98ea7c18b864f1fcb5.gif",
     "description": "That guy was cute but to be honest his taste were meh. Spotify knows me better than anyone and every song on my Discover Weekly hits the spot!",
     "hope": "Unfortunately you can't date Spotify.",
-    "type": "activity",
-    "status": "Extinct in the wild"
+    "type": "other",
+    "conservationStatus": "ew"
   },
   {
-    "name": "Stack Overflow",
+    "name": "Doctors",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
-    "link": "https://stackoverflow.com/",
-    "description": "People realized that they could simply ask a bot their question and that it always had an answer.",
-    "type": "app",
-    "hope": "Turns out the answer is sometimes completely wrong.",
-    "status": "Vulnerable"
+    "link": "https://medias.spotern.com/spots/w640/62/62394-1532336916.jpg",
+    "description": "If making a diagnosis is mostly based on previous experience then it might eventually become hard to beat models that eat petabytes of data for breakfast.",
+    "type": "profession",
+    "hope": "That being said, House, A.I. sounds like the most boring show yet to be produced.",
+    "conservationStatus": "nt"
   },
     {
-    "name": "Giving mixtapes in highschool",
+    "name": "Illustrators",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
-    "link": "https://44.media.tumblr.com/b5736035aa78a31fc0e81ebfc8117ffc/3f3f03b87036caac-34/s500x750_f1/5b1f42b0c5c3308ac126cd98ea7c18b864f1fcb5.gif",
-    "description": "That guy was cute but to be honest his taste were meh. Spotify knows me better than anyone and every song on my Discover Weekly hits the spot!",
-    "hope": "Unfortunately you can't date Spotify.",
-    "type": "activity",
-    "status": "Extinct in the wild"
+    "link": "https://external-preview.redd.it/cJ4yzwoGls5Bqr74KXSl4zQuEKs7C8ATtYMj6XRzBtA.png?auto=webp&s=ab83fbd60365c640e76b83ccf2df93dd2b56e728",
+    "description": "DALL-E, Stable Diffusion and Midjourney can create some pretty amazing illustrations.",
+    "hope": "But until they randomly hide a penis into one of the illustrations can we really call that Art?",
+    "type": "profession",
+    "conservationStatus": "en"
   },
   {
-    "name": "Stack Overflow",
+    "name": "Writers",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
-    "link": "https://stackoverflow.com/",
-    "description": "People realized that they could simply ask a bot their question and that it always had an answer.",
-    "type": "app",
-    "hope": "Turns out the answer is sometimes completely wrong.",
-    "status": "Vulnerable"
-  },
-    {
-    "name": "Giving mixtapes in highschool",
-    "dateOpen": "2018-02-21",
-    "dateClose": "2023-08-16",
-    "link": "https://44.media.tumblr.com/b5736035aa78a31fc0e81ebfc8117ffc/3f3f03b87036caac-34/s500x750_f1/5b1f42b0c5c3308ac126cd98ea7c18b864f1fcb5.gif",
-    "description": "That guy was cute but to be honest his taste were meh. Spotify knows me better than anyone and every song on my Discover Weekly hits the spot!",
-    "hope": "Unfortunately you can't date Spotify.",
-    "type": "activity",
-    "status": "Extinct in the wild"
+    "link": "https://i0.wp.com/www.robcottingham.ca/cartoon/wp-content/uploads/2015/04/2010.08.21.keywords.gif?fit=450%2C495&ssl=1",
+    "description": "If you're writing for humans you're probably safe. If you're writing to please some algorithms, there's a chance one of them will do better.",
+    "type": "profession",
+    "hope": "Choose your audience wisely!",
+    "conservationStatus": "nt"
   },
   {
-    "name": "Stack Overflow",
+    "name": "Asking a stranger for direction",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
-    "link": "https://stackoverflow.com/",
-    "description": "People realized that they could simply ask a bot their question and that it always had an answer.",
-    "type": "app",
-    "hope": "Turns out the answer is sometimes completely wrong.",
-    "status": "Vulnerable"
+    "link": "https://www.wikihow.com/Politely-Ask-a-Question",
+    "description": "\"Hey Siri. Is it possible that this person knows a better way to X than you?\"",
+    "type": "other",
+    "hope": "\"Unlikely. But why don't try? Maybe dispersion will understand your accent better than I do...\"",
+    "conservationStatus": "vu"
   },
     {
-    "name": "Giving mixtapes in highschool",
+    "name": "Recognizing the song that's playing and sounding cool",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
-    "link": "https://44.media.tumblr.com/b5736035aa78a31fc0e81ebfc8117ffc/3f3f03b87036caac-34/s500x750_f1/5b1f42b0c5c3308ac126cd98ea7c18b864f1fcb5.gif",
-    "description": "That guy was cute but to be honest his taste were meh. Spotify knows me better than anyone and every song on my Discover Weekly hits the spot!",
-    "hope": "Unfortunately you can't date Spotify.",
-    "type": "activity",
-    "status": "Extinct in the wild"
+    "link": "https://external-preview.redd.it/ue1EauUeDyn6UClnnj2uitT76SCP9E1GUjAwNwFY848.jpg?auto=webp&s=79c691899c04ac57d06f8a4c079798f843c9cf8d",
+    "description": "It's on the tip of your tongue! You're going to remem... too late! Someone pulled out Shazam and you just missed your chance.",
+    "hope": "Next time this happens, shout some nonsense. Loudly. Make sure to not only find the song name but also an explanation for your behavior.",
+    "type": "other",
+    "conservationStatus": "cr"
   }
 ]

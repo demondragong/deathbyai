@@ -7,12 +7,19 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
+import ex from '../../assets/ex.webp'
+import ew from '../../assets/ew.webp'
+import cr from '../../assets/cr.webp'
+import en from '../../assets/en.webp'
+import vu from '../../assets/vu.webp'
+import nt from '../../assets/nt.webp'
+
 import { ProductWithSlug } from '../../types/Product';
 import Badge from '../Badge'; 
 
 // Import Styled Components
 import {
-  AgeRange,
+  ConservationStatus,
   ContentContainer,
   Description,
   Hope,
@@ -37,50 +44,63 @@ export default function Item(props: ProductWithSlug) {
   };
 
   const getIcon = () => {
-    return isPast() ? (
-      <Icon src='https://static.killedbygoogle.com/com/tombstone.svg' alt="Tombstone" />
-    ) : (
-      <Icon src='https://static.killedbygoogle.com/com/guillotine.svg' alt="Guillotine" />
-    );
-  };
-
-
-  const dateCloseISO = parseISO(props.dateClose);
-  const relativeDate = formatDistanceToNow(dateCloseISO);
-
-  const ageRange = () => {
-    const monthOpen = format(parseISO(props.dateClose), 'LLLL');
-    const yearOpen = format(parseISO(props.dateOpen), 'uuuu');
-    const yearClose = format(parseISO(props.dateClose), 'uuuu');
-    if (!isPast()) {
-      const date = parseISO(props.dateClose);
-      return (
-        <AgeRange>
-          <time dateTime={format(date, 'uuuu-LL-dd')}>
-            {monthOpen}
-            <br />
-            {format(date, 'uuuu')}
-          </time>
-        </AgeRange>
-      );
+    switch (props.conservationStatus) {
+      case "ex":
+        return <Icon src={ex.src} alt="extinct" />  
+        break;
+      case "ew":
+        return <Icon src={ew.src} alt="extinct in the wild" />  
+        break;
+      case "cr":
+        return <Icon src={cr.src} alt="critically endangered" />  
+        break;
+      case "en":
+        return <Icon src={en.src} alt="endangered" />  
+        break;
+      case "vu":
+        return <Icon src={vu.src} alt="vulnerable" />  
+        break;
+      case "nt":
+        return <Icon src={nt.src} alt="near threatened" />  
+        break;
+      default:
+        break;
     }
-    return (
-      <AgeRange>
-        <time dateTime={format(parseISO(props.dateOpen), 'uuuu-LL-dd')}>
-          {yearOpen}
-        </time>
-        {' - '}
-        <time dateTime={format(parseISO(props.dateClose), 'uuuu-LL-dd')}>
-          {yearClose}
-        </time>
-      </AgeRange>
-    );
   };
+
+
+  const conservationStatus = () => {
+    
+    switch (props.conservationStatus) {
+      case "ex":
+        return <ConservationStatus>Extinct</ConservationStatus>
+        break;
+      case "ew":
+        return <ConservationStatus>Extinct in the Wild</ConservationStatus>
+        break;
+      case "cr":
+        return <ConservationStatus>Critically Endangered</ConservationStatus>
+        break;
+      case "en":
+        return <ConservationStatus>Endangered</ConservationStatus>
+        break;
+      case "vu":
+        return <ConservationStatus>Vulnerable</ConservationStatus>
+        break;
+      case "nt":
+        return <ConservationStatus>Near Threatened</ConservationStatus>
+        break;
+      default:
+        break;
+    }
+  };
+
+
   return (
     <ListItem>
       <IconContainer>
         {getIcon()}
-        {ageRange()}
+        {conservationStatus()}
         <Badge content={props.type} />
       </IconContainer>
       <ContentContainer>

@@ -97,7 +97,7 @@ const isValidDate = async (value, dateOpen = false) => {
     const typePrompt = new Select({
         name: 'type',
         message: 'Which category?',
-        choices: ['app', 'service', 'hardware'],
+        choices: ['app', 'profession', 'other'],
     });
 
     const product = {

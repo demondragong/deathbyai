@@ -27,12 +27,12 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
       label: `Apps (${getCount('app')})`,
     },
     {
-      value: FilterType.SERVICE,
-      label: `Services (${getCount('service')})`,
+      value: FilterType.PROFESSION,
+      label: `Professions (${getCount('profession')})`,
     },
     {
-      value: FilterType.HARDWARE,
-      label: `Hardware (${getCount('hardware')})`,
+      value: FilterType.OTHER,
+      label: `Other (${getCount('other')})`,
     }
   ];
 

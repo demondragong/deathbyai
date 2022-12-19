@@ -50,8 +50,9 @@ export const ListItem = styled.li(() => css({
   },
 }));
 
-export const AgeRange = styled.div(() => css({
+export const ConservationStatus = styled.div(() => css({
   fontSize: '0.75em',
+  padding: '1.15em',
 }));
 
 export const ContentContainer = styled.div(() => css({

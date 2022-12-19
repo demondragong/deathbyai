@@ -13,10 +13,12 @@ export const ListContainer = styled.ul(() => css({
 
   [`@media screen and ( max-width: ${(minwidth * 4) + 100}px )`]: {
     gridTemplateColumns: `repeat(2, minmax( ${minwidth}px, 1fr ) )`,
+    gap: '2rem',
   },
 
   [`@media screen and ( max-width: ${(minwidth * 2.5) + 100}px )`]: {
     gridTemplateColumns: '5px 2fr 5px',
+    gap: '1rem',
     
     ['& > li']: {
       gap: 0,
