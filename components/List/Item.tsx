@@ -7,12 +7,12 @@ import {
   formatDistanceToNow,
 } from 'date-fns';
 
-import ex from '../../assets/ex.webp'
-import ew from '../../assets/ew.webp'
-import cr from '../../assets/cr.webp'
-import en from '../../assets/en.webp'
-import vu from '../../assets/vu.webp'
-import nt from '../../assets/nt.webp'
+import ExIcon from '../../assets/ex.svg'
+import EwIcon from '../../assets/ew.svg'
+import CrIcon from '../../assets/cr.svg'
+import EnIcon from '../../assets/en.svg'
+import VuIcon from '../../assets/vu.svg'
+import NtIcon from '../../assets/nt.svg'
 
 import { ProductWithSlug } from '../../types/Product';
 import Badge from '../Badge'; 
@@ -46,23 +46,17 @@ export default function Item(props: ProductWithSlug) {
   const getIcon = () => {
     switch (props.conservationStatus) {
       case "ex":
-        return <Icon src={ex.src} alt="extinct" />  
-        break;
+        return <ExIcon />
       case "ew":
-        return <Icon src={ew.src} alt="extinct in the wild" />  
-        break;
+        return <EwIcon />
       case "cr":
-        return <Icon src={cr.src} alt="critically endangered" />  
-        break;
+        return <CrIcon />
       case "en":
-        return <Icon src={en.src} alt="endangered" />  
-        break;
+        return <EnIcon />
       case "vu":
-        return <Icon src={vu.src} alt="vulnerable" />  
-        break;
+        return <VuIcon />
       case "nt":
-        return <Icon src={nt.src} alt="near threatened" />  
-        break;
+        return <NtIcon />
       default:
         break;
     }

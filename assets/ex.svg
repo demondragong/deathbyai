@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- To add translation, please edit inside <switch> below using text editor. -->
+
+<svg
+   viewBox="0 0 27.200001 27.108672"
+   width="54.400002"
+   height="54.400002"
+   version="1.1"
+   id="svg122"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <g
+     stroke-width="0.6"
+     stroke="#666666"
+     transform="translate(-10.799999,13.485)"
+     id="g26">
+    <circle
+       cx="24.4"
+       r="13.3"
+       id="circle12"
+       cy="0" />
+    <circle
+       cx="58"
+       r="13.3"
+       id="circle14"
+       cy="0" />
+    <circle
+       cx="92"
+       r="13.3"
+       fill="#cc3333"
+       id="circle16"
+       cy="0" />
+    <circle
+       cx="126"
+       r="13.3"
+       fill="#cc6633"
+       id="circle18"
+       cy="0" />
+    <circle
+       cx="161"
+       r="13.3"
+       fill="#cc9900"
+       id="circle20"
+       cy="0" />
+    <circle
+       cx="194"
+       r="13.3"
+       fill="#006666"
+       id="circle22"
+       cy="0" />
+    <circle
+       cx="228"
+       r="13.3"
+       fill="#006666"
+       id="circle24"
+       cy="0" />
+  </g>
+  <path
+     fill="#cc3333"
+     d="M 5.5000008,18.085 V 9.1550002 H 12.320001 V 10.665 H 7.3600008 v 1.98 h 4.6200002 v 1.5 H 7.3600008 v 2.43 h 5.1400002 v 1.5 z m 9.8600002,0 h -2.21 l 3.14,-4.67 -2.85,-4.2699998 h 2.17 l 1.84,2.8699998 1.81,-2.8699998 h 2.15 l -2.86,4.3399998 3.14,4.6 h -2.24 l -2.04,-3.09 z"
+     id="path28" />
+</svg>
