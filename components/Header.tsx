@@ -5,7 +5,7 @@ import { css } from '@emotion/react';
 const HeaderContainer = styled.header(() => css({
     display: 'flex',
     justifyContent: 'center',
-    padding: '3rem',
+    padding: '2rem',
 }));
 
 const BrandingContainer = styled.div(() => css({
