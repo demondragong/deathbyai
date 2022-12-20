@@ -6,6 +6,8 @@ import { css } from "@emotion/react";
 import { FooterContainer, FlexWrap } from "./Footer.atoms";
 import Link from "next/link";
 
+import ConservationStatuses from "../../assets/conservation-statuses.svg";
+
 const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
   url,
   imgSrc,
@@ -82,19 +84,7 @@ const Footer = () => (
     <FooterContainer>
       <FlexWrap>
         <FooterTitle>
-          <div
-            css={{
-              marginRight: "10px",
-            }}
-          >
-            <img
-              height="60px"
-              width="60px"
-              src="https://static.killedbygoogle.com/com/tombstone-alt.svg"
-              alt="Tombstone"
-            />
-          </div>
-          <Title>Death by AI</Title>
+          <ConservationStatuses />
         </FooterTitle>
         <div>
           <p>
@@ -104,7 +94,11 @@ const Footer = () => (
             check their page! It's literally the same UI.
           </p>
           <p>Except this page focuses on things that AI is threatening.</p>
-          <p>If you know someone or something that is at risk because of AI please let us know <a href="https://github.com/demondragong/deathbyai">here</a>.</p>
+          <p>
+            If you know someone or something that is at risk because of AI
+            please let us know{" "}
+            <a href="https://github.com/demondragong/deathbyai">here</a>.
+          </p>
         </div>
         <SocialWrapper>
           <SocialLink

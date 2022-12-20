@@ -68,5 +68,26 @@
     "hope": "Next time this happens, shout some nonsense. Loudly. Make sure to not only find the song name but also an explanation for your behavior.",
     "type": "other",
     "conservationStatus": "cr"
+  },
+  {
+    "name": "Your focus",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "link": "",
+    "description": "This video should help me solve my math problem. (2 minutes later) Got it. Let's get back to the exercise. Wait... \"Magnus Carlsen Checkmates Bill Gates in just 12 seconds\"?! I've got to watch that!",
+    "hope": "Protect your brain with this legal move: hide social network feeds and video recommendations.",
+    "type": "other",
+    "conservationStatus": "cr"
+  },
+  {
+    "name": "Google",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "link": "",
+    "description": "Google probably has the know-how to give you clear and detailed answers like ChatGPT instead of an endless list of links. But Google also wants you to click on links, preferably ads...",
+    "hope": "Google to ChatGPT: \"Please don't be evil.\"",
+    "type": "app",
+    "conservationStatus": "vu"
   }
+
 ]
