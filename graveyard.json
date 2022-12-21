@@ -72,7 +72,7 @@
     "name": "Your focus",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
-    "description": "This video should help me solve my math problem. (2 minutes later) Got it. Let's get back to the exercise. Wait... \"Magnus Carlsen Checkmates Bill Gates in just 12 seconds\"?! I've got to watch that!",
+    "description": "This video should help me solve my math problem. (2 minutes later...) Got it. Let's get back to the exercise. Wait... \"Magnus Carlsen Checkmates Bill Gates in just 12 seconds\"?! I've got to see that!",
     "hope": "Protect your brain with this legal move: hide social network feeds and video recommendations.",
     "type": "other",
     "conservationStatus": "cr"
@@ -84,6 +84,34 @@
     "description": "Google probably has the know-how to give you clear and detailed answers like ChatGPT instead of an endless list of links. But Google also wants you to click on links, preferably ads...",
     "hope": "Google to ChatGPT: \"Please don't be evil.\"",
     "type": "app",
+    "conservationStatus": "vu"
+  },
+  {
+    "name": "Transcribers / Transcriptionists",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "link": "",
+    "description": "Once upon a time... some people wrote down what some other people said. But automatic speech recognition systems are rapidly getting better. Whisper from OpenAI was trained using 680k hours of data. A solid career experience!",
+    "hope": "The safest bet at the moment seems to be specializing in pun transcription. Did you hear about the kidnapping at school?",
+    "type": "profession",
+    "conservationStatus": "cr"
+  },
+  {
+    "name": "Programmers",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "description": "Possibly the job with the most training data available online (Hello Stack Overflow!). Unsurprisingly, there are already tools that can help programmers and write some of their code.",
+    "hope": "Luckily some genius programmers have been sharing a lot of terrible answers on Stack Overflow and current AI models are confused.",
+    "type": "profession",
+    "conservationStatus": "vu"
+  },
+  {
+    "name": "Pop singers",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "description": "Your favorite singer is already pitch-corrected, formant-modified, and super edited. How long before they don't even sing themselves. Does Bieber even own his voice?",
+    "hope": "Is Bieber even a human?",
+    "type": "profession",
     "conservationStatus": "vu"
   }
 
