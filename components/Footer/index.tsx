@@ -97,7 +97,7 @@ const Footer = () => (
           <p>
             If you know someone or something that is at risk because of AI
             please let us know{" "}
-            <a href="https://github.com/demondragong/deathbyai">here</a>.
+            <a href="https://forms.gle/qBgg4LoZjKkKxj268" target="_blank" rel="noopener noreferrer">here</a>.
           </p>
         </div>
         <CopyNotice>
