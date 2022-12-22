@@ -91,7 +91,7 @@ const Footer = () => (
             Death by AI is a RIP-off of{" "}
             <a href="https://killedbygoogle.com/">Killed by Google</a>, an
             open-source list of discontinued Google products and services. Go
-            check their page! It's literally the same UI.
+            check their page! It's literally the same.
           </p>
           <p>Except this page focuses on things that AI is threatening.</p>
           <p>
@@ -100,6 +100,15 @@ const Footer = () => (
             <a href="https://github.com/demondragong/deathbyai">here</a>.
           </p>
         </div>
+        <CopyNotice>
+                    <a href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
+                        &copy; 2022 Cody Ogden
+          </a>
+          &nbsp;-&nbsp;
+          <a href="https://gaël.com/" target="_blank" rel="noopener noreferrer">
+                        Gaël.com
+          </a>
+                </CopyNotice>
         <SocialWrapper>
           <SocialLink
             url="https://github.com/demondragong/deathbyai"
