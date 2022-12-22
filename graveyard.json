@@ -123,5 +123,15 @@
     "hope": "If your name is Alexa and you're the unfortunate target of lame jokes, do like her and ignore noise pollution. If your name is Amazon, rebrand.",
     "type": "other",
     "conservationStatus": "en"
+  },
+  {
+    "name": "Death by AI",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "link":"https://deathbyai.com",
+    "description": "Wait... what?! Artificial Intelligence may be able to perform certain tasks, but it cannot replace the unique creativity and critical thinking of human beings. Our website will always rely on the talents and insights of our team!",
+    "hope": "This message was written by ChatGPT.",
+    "type": "app",
+    "conservationStatus": "cr"
   }
 ]
