@@ -79,6 +79,88 @@ const SocialWrapper = styled.div(() =>
   })
 );
 
+const FormContainer = styled.div(() =>
+  css({
+    alignItems: "center",
+    display: "flex",
+    justifyContent: "center",
+    margin: "auto",
+  })
+);
+
+const NewsletterForm = () => (
+  <FormContainer>
+    <div id="mc_embed_signup">
+      <form
+        action="https://deathbyai.us17.list-manage.com/subscribe/post?u=5b58f50a0d8534f45ffb9264c&id=1ab3a446f6&f_id=00b354e0f0"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        className="validate"
+        target="_self"
+      >
+        <div
+          id="mc_embed_signup_scroll"
+          style={{ display: "flex", gap: "0.6rem" }}
+        >
+          <div className="mc-field-group">
+            <label htmlFor="mce-EMAIL" style={{ display: "none" }}>
+              Email Address
+            </label>
+            <input
+              type="email"
+              defaultValue=""
+              name="EMAIL"
+              className="required email"
+              id="mce-EMAIL"
+              placeholder="Email Address"
+              required
+              style={{ padding: "0.25rem", fontSize: "1rem" }}
+            />
+            <span id="mce-EMAIL-HELPERTEXT" className="helper_text" />
+          </div>
+          <div id="mce-responses" className="clear foot">
+            <div
+              className="response"
+              id="mce-error-response"
+              style={{ display: "none" }}
+            />
+            <div
+              className="response"
+              id="mce-success-response"
+              style={{ display: "none" }}
+            />
+          </div>
+          {/* real people should not fill this in and expect good things - do not remove this or risk form bot signups*/}
+          <div
+            style={{ position: "absolute", left: "-5000px" }}
+            aria-hidden="true"
+          >
+            <input
+              type="text"
+              name="b_5b58f50a0d8534f45ffb9264c_1ab3a446f6"
+              tabIndex={-1}
+              defaultValue=""
+            />
+          </div>
+          <div className="optionalParent">
+            <div className="clear foot">
+              <input
+                type="submit"
+                value="Subscribe"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                className="button"
+                style={{ padding: "0.25rem 0.75rem", fontSize: "1rem" }}
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </FormContainer>
+);
+
 const Footer = () => (
   <>
     <FooterContainer>
@@ -97,18 +179,34 @@ const Footer = () => (
           <p>
             If you know someone or something that is at risk because of AI
             please let us know{" "}
-            <a href="https://forms.gle/qBgg4LoZjKkKxj268" target="_blank" rel="noopener noreferrer">here</a>.
+            <a
+              href="https://forms.gle/qBgg4LoZjKkKxj268"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
           </p>
         </div>
+        <p>
+          Subscribe to get a monthly update with the new victims of AI.
+          Unsubscribe anytime.
+        </p>
+        <NewsletterForm />
         <CopyNotice>
-                    <a href="https://github.com/demondragong/deathbyai/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">
-                        &copy; 2022 Cody Ogden
+          <a
+            href="https://github.com/demondragong/deathbyai/blob/main/LICENSE"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &copy; 2022 Cody Ogden
           </a>
           &nbsp;-&nbsp;
           <a href="https://gaël.com/" target="_blank" rel="noopener noreferrer">
-                        Gaël.com
+            Gaël.com
           </a>
-                </CopyNotice>
+        </CopyNotice>
         <SocialWrapper>
           <SocialLink
             url="https://github.com/demondragong/deathbyai"

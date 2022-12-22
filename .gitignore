@@ -71,3 +71,4 @@ public/graveyard.json
 !.czrc
 test-results/
 playwright-report/
+.DS_Store
