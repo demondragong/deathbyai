@@ -7,7 +7,7 @@
 
 <div align="center">
 
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/codyogden/killedbygoogle/blob/main/LICENSE)
 
 </div>
 
