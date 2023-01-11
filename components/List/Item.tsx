@@ -99,7 +99,7 @@ export default function Item(props: ProductWithSlug) {
       <ContentContainer>
         <h2>
           {props.link ? (
-            <a href={props.link} target="_blank" rel="noopener noreferrer">{props.name}</a>
+            <a href={props.link} target="_blank" rel="nofollow noopener noreferrer">{props.name}</a>
           ) : (
             props.name
           )}
