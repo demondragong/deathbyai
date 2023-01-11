@@ -125,6 +125,15 @@
     "conservationStatus": "en"
   },
   {
+    "name": "Networking on LinkedIn",
+    "dateOpen": "2023-01-11",
+    "dateClose": "2023-01-11",
+    "description": "We've already got people writing whole blog posts with AI copywriters. Now there's a Chrome extension called Engage AI that will write LinkedIn comments for you. Nothing is sacred. Now I have to squint at the comments on all my posts and ask myself the age-old question:",
+    "hope": "\"Are you a robot?\"",
+    "type": "other",
+    "conservationStatus": "vu"
+  },
+  {
     "name": "Death by AI",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
