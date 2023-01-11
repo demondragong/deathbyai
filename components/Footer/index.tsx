@@ -182,7 +182,7 @@ const Footer = () => (
             <a
               href="https://forms.gle/qBgg4LoZjKkKxj268"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow noopener noreferrer"
             >
               here
             </a>
@@ -198,12 +198,12 @@ const Footer = () => (
           <a
             href="https://github.com/demondragong/deathbyai/blob/main/LICENSE"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow noopener noreferrer"
           >
             &copy; 2022 Cody Ogden
           </a>
           &nbsp;-&nbsp;
-          <a href="https://gaël.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://gaël.com/">
             Gaël.com
           </a>
         </CopyNotice>

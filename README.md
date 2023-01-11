@@ -13,7 +13,7 @@
 
 ## Contribute
 
-To suggest another potential victim of AI, fill up <a href="https://forms.gle/qBgg4LoZjKkKxj268" target="_blank" rel="noopener noreferrer">this form</a> or submit an issue with the following information:
+To suggest another potential victim of AI, fill up <a href="https://forms.gle/qBgg4LoZjKkKxj268" target="_blank" rel="nofollow noopener noreferrer">this form</a> or submit an issue with the following information:
 
 - Name: name of the thing that is threatened by AI
 - Description: 1 or 2 sentences on how AI is threatening this thing (or a joke related to that)
