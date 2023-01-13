@@ -31,8 +31,8 @@ const SocialLink: FC<{ url: string; imgSrc: string; altText: string }> = ({
             width: "24px",
             height: "24px",
           }}
-          width="24px"
-          height="24px"
+          width="24"
+          height="24"
           src={imgSrc}
           alt={altText}
         />
