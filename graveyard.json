@@ -134,6 +134,16 @@
     "conservationStatus": "vu"
   },
   {
+    "name": "Failing to register your pool to pay less taxes",
+    "dateOpen": "2023-01-13",
+    "dateClose": "2023-01-13",
+    "link":"https://www.nytimes.com/2022/08/30/world/europe/france-taxes-pools-artificial-intelligence.html",
+    "description": "In France if you own a swimming pool, there's a tax for that ;) Naturally, some people thought they could forget to declare it to save a few bucks... Doing that a few years ago was dishonest.",
+    "hope": "Doing that today, when an AI can easily spot a pool on satellite images, is just stupid.",
+    "type": "other",
+    "conservationStatus": "ew"
+  },
+  {
     "name": "Death by AI",
     "dateOpen": "2018-02-21",
     "dateClose": "2023-08-16",
