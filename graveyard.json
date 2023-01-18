@@ -1,5 +1,15 @@
 [
   {
+    "name": "Twitter",
+    "dateOpen": "2023-01-18",
+    "dateClose": "2023-01-18",
+    "link": "https://twitter.com/death_by_ai",
+    "description": "With the democratization of AI tools that tweet for you and reply for you, soon Twitter will be a network of bots interacting with other bots.",
+    "type": "app",
+    "hope": "Rumor has it that Elon Musk will be the last human there, sharing polls to ask bots whether he should step down as CEO...",
+    "conservationStatus": "en"
+  },
+  {
     "name": "Stack Overflow",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
