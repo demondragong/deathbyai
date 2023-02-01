@@ -15,8 +15,6 @@ const BrandingContainer = styled.div(() => css({
 
 const Logo = styled.div(() => css({
     display: 'block',
-    marginRight: '1rem',
-    width: '60px',
 }));
 
 const Title = styled.h1(() => css({
@@ -33,7 +31,7 @@ const Header = () => (
             }}>
                 <BrandingContainer>
                         <Logo>
-                            <img width="60px" src="https://static.killedbygoogle.com/com/tombstone.svg" height="60px" alt="Tombstone" />
+                            <img width="100px" src="https://storage.googleapis.com/listofacronyms.com/death-by-ai-hands.svg" height="120px" alt="Logo of death by AI, a typical poorly-AI-generated hand with a dozen fingers coming out of the ground in a zombie-like fashion" />
                         </Logo>
                         <Title>Death by AI</Title>
                 </BrandingContainer>

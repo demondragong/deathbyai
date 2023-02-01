@@ -72,3 +72,4 @@ public/graveyard.json
 test-results/
 playwright-report/
 .DS_Store
+components/Header.tsx
