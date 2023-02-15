@@ -10,6 +10,53 @@
     "conservationStatus": "en"
   },
   {
+    "name": "Writers",
+    "dateOpen": "2013-05-15",
+    "dateClose": "2022-11-30",
+    "link": "https://i0.wp.com/www.robcottingham.ca/cartoon/wp-content/uploads/2015/04/2010.08.21.keywords.gif?fit=450%2C495&ssl=1",
+    "description": "If you're writing for humans, you're probably safe. If you're writing to please some algorithms, there's a chance one of them will do better.",
+    "type": "profession",
+    "hope": "Choose your audience wisely!",
+    "conservationStatus": "vu"
+  },
+  {
+    "name": "Your focus",
+    "dateOpen": "2018-02-21",
+    "dateClose": "2023-08-16",
+    "description": "This video should help me solve my math problem. (2 minutes later...) Got it. Let's get back to the exercise. Wait... \"Magnus Carlsen Checkmates Bill Gates in just 12 seconds\"?! I've got to see that!",
+    "hope": "Protect your brain with this legal move: hide social network feeds and video recommendations.",
+    "type": "other",
+    "conservationStatus": "cr"
+  },
+  {
+    "name": "Reading unreasonably long articles",
+    "dateOpen": "2023-02-15",
+    "dateClose": "2023-02-15",
+    "description": "You can't even remember when you saved this article. It seems interesting but... \"Reading time: 20 minutes\"... Ain't nobody got time fot that!",
+    "hope": "Now you can just copy-paste all that text into an article summarizer and hope that AI will pick up the essence for you.",
+    "type": "other",
+    "conservationStatus": "en"
+  },
+  {
+    "name": "Failing to register your pool to pay less taxes",
+    "dateOpen": "2023-01-13",
+    "dateClose": "2023-01-13",
+    "link":"https://www.nytimes.com/2022/08/30/world/europe/france-taxes-pools-artificial-intelligence.html",
+    "description": "In France if you own a swimming pool, there's a tax for that ;) Naturally, some people thought they could forget to declare it to save a few bucks... Doing that a few years ago was dishonest.",
+    "hope": "Doing that today, when an AI can easily spot a pool on satellite images, is just stupid.",
+    "type": "other",
+    "conservationStatus": "ew"
+  },
+  {
+    "name": "Networking on LinkedIn",
+    "dateOpen": "2023-01-11",
+    "dateClose": "2023-01-11",
+    "description": "We've already got people writing whole blog posts with AI copywriters. Now there's a Chrome extension called Engage AI that will write LinkedIn comments for you. Nothing is sacred. Now I have to squint at the comments on all my posts and ask myself the age-old question:",
+    "hope": "\"Are you a robot?\"",
+    "type": "other",
+    "conservationStatus": "vu"
+  },
+  {
     "name": "Stack Overflow",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
@@ -49,16 +96,6 @@
     "conservationStatus": "en"
   },
   {
-    "name": "Writers",
-    "dateOpen": "2013-05-15",
-    "dateClose": "2022-11-30",
-    "link": "https://i0.wp.com/www.robcottingham.ca/cartoon/wp-content/uploads/2015/04/2010.08.21.keywords.gif?fit=450%2C495&ssl=1",
-    "description": "If you're writing for humans, you're probably safe. If you're writing to please some algorithms, there's a chance one of them will do better.",
-    "type": "profession",
-    "hope": "Choose your audience wisely!",
-    "conservationStatus": "vu"
-  },
-  {
     "name": "Asking a stranger for directions",
     "dateOpen": "2013-05-15",
     "dateClose": "2022-11-30",
@@ -75,15 +112,6 @@
     "link": "https://external-preview.redd.it/ue1EauUeDyn6UClnnj2uitT76SCP9E1GUjAwNwFY848.jpg?auto=webp&s=79c691899c04ac57d06f8a4c079798f843c9cf8d",
     "description": "It's on the tip of your tongue! You're going to remem... too late! Someone pulled out Shazam and you just missed your chance.",
     "hope": "Next time this happens, shout some nonsense. Loudly. Make sure to not only find the song name but also an explanation for your behavior.",
-    "type": "other",
-    "conservationStatus": "cr"
-  },
-  {
-    "name": "Your focus",
-    "dateOpen": "2018-02-21",
-    "dateClose": "2023-08-16",
-    "description": "This video should help me solve my math problem. (2 minutes later...) Got it. Let's get back to the exercise. Wait... \"Magnus Carlsen Checkmates Bill Gates in just 12 seconds\"?! I've got to see that!",
-    "hope": "Protect your brain with this legal move: hide social network feeds and video recommendations.",
     "type": "other",
     "conservationStatus": "cr"
   },
@@ -134,25 +162,6 @@
     "hope": "If your name is Alexa and you're the unfortunate target of lame jokes, do like her and ignore noise pollution. If your name is Amazon, rebrand.",
     "type": "other",
     "conservationStatus": "en"
-  },
-  {
-    "name": "Networking on LinkedIn",
-    "dateOpen": "2023-01-11",
-    "dateClose": "2023-01-11",
-    "description": "We've already got people writing whole blog posts with AI copywriters. Now there's a Chrome extension called Engage AI that will write LinkedIn comments for you. Nothing is sacred. Now I have to squint at the comments on all my posts and ask myself the age-old question:",
-    "hope": "\"Are you a robot?\"",
-    "type": "other",
-    "conservationStatus": "vu"
-  },
-  {
-    "name": "Failing to register your pool to pay less taxes",
-    "dateOpen": "2023-01-13",
-    "dateClose": "2023-01-13",
-    "link":"https://www.nytimes.com/2022/08/30/world/europe/france-taxes-pools-artificial-intelligence.html",
-    "description": "In France if you own a swimming pool, there's a tax for that ;) Naturally, some people thought they could forget to declare it to save a few bucks... Doing that a few years ago was dishonest.",
-    "hope": "Doing that today, when an AI can easily spot a pool on satellite images, is just stupid.",
-    "type": "other",
-    "conservationStatus": "ew"
   },
   {
     "name": "Death by AI",
