@@ -172,8 +172,7 @@ const Footer = () => (
           <p>
             Death by AI is a RIP-off of{" "}
             <a href="https://killedbygoogle.com/">Killed by Google</a>, an
-            open-source list of discontinued Google products and services. Go
-            check their page! It's literally the same.
+            open-source list of discontinued Google products and services.
           </p>
           <p>Except this page focuses on things that AI is threatening.</p>
           <p>
