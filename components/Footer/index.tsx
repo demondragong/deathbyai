@@ -171,19 +171,15 @@ const Footer = () => (
         <div>
           <p>
             Death by AI is a RIP-off of{" "}
-            <a href="https://killedbygoogle.com/">Killed by Google</a>, an
-            open-source list of discontinued Google products and services.
-          </p>
-          <p>Except this page focuses on things that AI is threatening.</p>
+            <a href="https://killedbygoogle.com/">Killed by Google</a> focusing on things that AI is threatening.</p>
           <p>
-            If you know someone or something that is at risk because of AI
-            please let us know{" "}
+            If you want to add something to the list{" "}
             <a
               href="https://forms.gle/qBgg4LoZjKkKxj268"
               target="_blank"
               rel="nofollow noopener noreferrer"
             >
-              here
+              please fill this form
             </a>
             .
           </p>
@@ -199,11 +195,11 @@ const Footer = () => (
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
-            &copy; 2022 Cody Ogden
+            &copy; 2023 Cody Ogden
           </a>
           &nbsp;-&nbsp;
-          <a href="https://gaël.com/">
-            Gaël.com
+          <a href="https://twitter.com/gaeldemondragon">
+            Gaël
           </a>
         </CopyNotice>
         <SocialWrapper>
