@@ -1,5 +1,32 @@
 [
   {
+    "name": "Grammarly",
+    "dateOpen": "2023-03-22",
+    "dateClose": "2023-03-22",
+    "description": "Hey Grammarly, thanks for your help with my English all those years. You know... I don't really write as much as I used to... I met this other AI, called ChatGPT, and she does a lot of the writing for me...",
+    "type": "app",
+    "hope": "Shall we stay friends?",
+    "conservationStatus": "vu"
+  },
+  {
+    "name": "Tinder matches who look like their pictures",
+    "dateOpen": "2023-03-22",
+    "dateClose": "2023-03-22",
+    "description": "Let's not pretend this was not an issue before AI came in.",
+    "type": "other",
+    "hope": "But now, with all the apps that take someone's pictures and generate a bunch of sexy variations, you can forget about even recognizing your match when you meet them for the first time!",
+    "conservationStatus": "cr"
+  },
+  {
+    "name": "Fitness coaches",
+    "dateOpen": "2023-03-22",
+    "dateClose": "2023-03-22",
+    "description": "ChatGPT can create a custom fitness plan for you. Feed that plan to a text-to-speech tool to have it repeated to you over and over by a motivating voice (preferably Morgan Freeman).",
+    "type": "profession",
+    "hope": "The only thing AI can't give you yet is a genuine fear that you will get kicked in the butt if you don't complete that set of burpees!",
+    "conservationStatus": "vu"
+  },
+  {
     "name": "Twitter",
     "dateOpen": "2023-01-18",
     "dateClose": "2023-01-18",
