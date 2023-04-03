@@ -31,7 +31,7 @@ const Header = () => (
             }}>
                 <BrandingContainer>
                         <Logo>
-                            <img width="100px" src="https://storage.googleapis.com/listofacronyms.com/death-by-ai-hands.svg" height="120px" alt="Logo of death by AI, a typical poorly-AI-generated hand with a dozen fingers coming out of the ground in a zombie-like fashion" />
+                            <img src="https://pbs.twimg.com/profile_images/1623710585794822144/ZoDcdI4U_400x400.jpg" height="120px" alt="Logo of death by AI, a typical poorly-AI-generated hand with a dozen fingers coming out of the ground in a zombie-like fashion" />
                         </Logo>
                         <Title>Death by AI</Title>
                 </BrandingContainer>
