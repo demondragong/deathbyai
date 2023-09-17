@@ -39,8 +39,6 @@ const Filter: React.FC<Props> = ({ items, filterHandler }) => {
   const changeHandler = (arg: SingleValue<Option>): void => {
     const filterVal = arg?.value as FilterType;
       filterHandler(filterVal);
-    if (window.umami?.trackEvent)
-      window.umami.trackEvent(filterVal, 'filter');
   }
 
   return (

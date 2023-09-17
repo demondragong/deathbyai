@@ -5,15 +5,9 @@ import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
 
 
-declare global {
-    interface Window {
-        umami?: any;
-    }
-}
-
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
     return <>
-        <script async defer data-website-id={process.env.UMAMI_ID} src="/umami.js" />
+        <script defer data-domain="deathbyai.com" src="https://plausible.io/js/script.js"></script>
         <Component {...pageProps} />
         <Analytics />
     </>
