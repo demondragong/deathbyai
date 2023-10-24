@@ -31,6 +31,17 @@ const HomePage: React.FC<{ items: ProductWithSlug[] }> = ({ items }) => {
                 <meta name="og:description" property="og:description" content="Thinking about a career change? Look no further! Our list of professions, apps, and human activities that are ripe for replacement by artificial intelligence will have you feeling confident about your future job security. Come see the full list and find out if your job is at risk. Don't say we didn't warn you." />
                 <meta name="og:site_name" property="og:site_name" content="Death by AI" />
                 <meta name="og:type" property="og:type" content="website" />
+                <meta name="image" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png"></meta>
+                <meta itemProp="image" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png" />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content="Death by AI" />
+                <meta name="twitter:description" content="A list of professions, apps, and human activities that are ripe for replacement by artificial intelligence." />
+                <meta name="twitter:site" content="@death_by_ai" />
+                <meta name="twitter:creator" content="@death_by_ai" />
+                <meta name="twitter:image:src" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png" />
+                <meta name="twitter:image" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png" />
+                <meta name="image" property="og:image" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png" />
+                <meta name="og:image" property="og:image" content="https://raw.githubusercontent.com/demondragong/deathbyai/master/assets/social/card.png" />
             </Head>
             <Header />
             <App items={items} />
