@@ -195,10 +195,10 @@ const Footer = () => (
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
-            &copy; 2023 Cody Ogden
+            &copy; 2043 Cody Ogden
           </a>
           &nbsp;-&nbsp;
-          <a href="https://twitter.com/gaeldemondragon">
+          <a href="https://www.gaeldemondragon.com/">
             Gaël
           </a>
         </CopyNotice>
