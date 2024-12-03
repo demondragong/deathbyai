@@ -190,23 +190,23 @@ const Footer = () => (
         </p>
         <NewsletterForm />
         <CopyNotice>
+          <a href="https://www.gaeldemondragon.com/">
+            Gaël
+          </a>
+          &nbsp;-&nbsp;
           <a
-            href="https://github.com/demondragong/deathbyai/blob/main/LICENSE"
+            href="https://github.com/codyogden/killedbygoogle/blob/main/LICENSE"
             target="_blank"
             rel="nofollow noopener noreferrer"
           >
-            &copy; 2043 Cody Ogden
-          </a>
-          &nbsp;-&nbsp;
-          <a href="https://www.gaeldemondragon.com/">
-            Gaël
+            &copy; 2024
           </a>
         </CopyNotice>
         <SocialWrapper>
           <SocialLink
-            url="https://github.com/demondragong/deathbyai"
-            altText="GitHub"
-            imgSrc="https://static.killedbygoogle.com/com/github.svg"
+          url="https://bsky.app/profile/gaeldemondragon.com"
+          altText="BlueSky"
+          imgSrc='https://static.killedbygoogle.com/com/bsky.svg'
           />
         </SocialWrapper>
       </FlexWrap>
